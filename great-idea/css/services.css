@@ -1,0 +1,145 @@
+body {
+  max-width: 100%;
+}
+
+.container {
+  width: 86%;
+  margin: 0 auto;
+}
+
+hr {
+  border-top: solid 2px grey;
+}
+
+.hr2 {
+  margin: 0 0 4%;
+}
+
+h1,
+h3 {
+  font-family: "Bangers", cursive;
+}
+
+p,
+a,
+button {
+  font-family: "Gayathri", sans-serif;
+}
+
+/* navigator */
+.nav-banner {
+  display: flex;
+  margin: 2% 0;
+}
+
+.nav-container {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.nav-container a {
+  text-decoration: none;
+  text-align: center;
+  padding: 1.5% 1.5% 0;
+  color: grey;
+}
+
+.nav-container a:hover {
+  color: rgb(53, 53, 53);
+  background-color: gainsboro;
+  transition: 0.4s;
+}
+
+.logo-container {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+/* image banner */
+.banner-img-container img {
+  width: 100%;
+}
+
+/* first section of content */
+.section1 {
+  margin: 4% 0 4%;
+}
+
+/* second section of content */
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2% 0 0;
+}
+
+.digital-design,
+.digital-marketing,
+.ios-dev,
+.ux-ui,
+.web-dev,
+.android-dev {
+  width: 44%;
+  border: solid grey 1px;
+  background-color: gainsboro;
+  padding: 2%;
+  border-radius: 3px;
+  margin: 0 0 2%;
+}
+
+button {
+  background-color: ghostwhite;
+  padding: 2% 2% 1%;
+  border: solid 1px grey;
+  border-radius: 3px;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(83, 83, 83);
+}
+
+/* third section of content */
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.amazing-facts,
+section3-img-container,
+.amazing-facts {
+  width: 48%;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+/* page footer */
+footer {
+  text-align: center;
+  margin: 6%;
+}
+
+/* media query for secret mobile "dark mode" */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(136, 136, 136);
+    transition: 2s;
+  }
+
+  .nav-container a {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  body {
+    background-color: rgb(255, 255, 255);
+    transition: 2s;
+  }
+}
